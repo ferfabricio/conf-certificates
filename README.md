@@ -16,3 +16,13 @@ Para incluir as fontes é necessário fazer o download e renomear os arquivos co
 - Type: Bold 700
 - Link: <https://fonts.google.com/specimen/Aleo>
 - Arquivo de destino: `assets/fonts/Aleo-Bold.ttf`
+
+## Comandos
+
+### Imprimir lista
+
+`go run cmd/print/main.go <arquivo json dos dados>`
+
+### Gerar PDFs
+
+`go run cmd/generate/main.go <arquivo json dos dados>`
