@@ -1,0 +1,15 @@
+{
+    "cities": [
+        {
+            "name": "Campo Mourão",
+            "date": "13/09/2022",
+            "attendants": [
+                {
+                    "name": "Teste da Silva Sauro",
+                    "email": "teste@example.com",
+                    "code": "83064af3-bb81-4514-a6d4-afba340825cd"
+                }
+            ]
+        }
+    ]
+}
