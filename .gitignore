@@ -29,3 +29,4 @@ assets/fonts/*.ttf
 .env
 output/*.pdf
 output/.DS_Store
+output/enviados
