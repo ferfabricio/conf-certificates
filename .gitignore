@@ -21,5 +21,7 @@ go.work
 /vendor/
 /Godeps/
 
+.DS_Store
+
 assets/json/data.json
 assets/fonts/*.ttf

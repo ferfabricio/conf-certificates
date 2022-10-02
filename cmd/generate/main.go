@@ -4,6 +4,7 @@ import (
 	"os"
 
 	"github.com/ferfabricio/certificados-devparana-go/internal/data"
+	"github.com/ferfabricio/certificados-devparana-go/internal/pdf"
 )
 
 func main() {
@@ -18,4 +19,13 @@ func main() {
 	}
 
 	data.Print(c)
+
+	for i := 0; i < len(c.Cities); i++ {
+		for j := 0; j < len(c.Cities[i].Attendants); j++ {
+			err = pdf.SavePDF(c.Cities[i].Date, c.Cities[i].Name, c.Cities[i].Attendants[j])
+			if err != nil {
+				panic(err)
+			}
+		}
+	}
 }
