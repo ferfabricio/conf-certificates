@@ -15,6 +15,7 @@ type Attendant struct {
 type City struct {
 	Name       string      `json:"name"`
 	Date       string      `json:"date"`
+	Template   string      `json:"template"`
 	Attendants []Attendant `json:"attendants"`
 }
 

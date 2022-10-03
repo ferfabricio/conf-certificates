@@ -22,7 +22,7 @@ func main() {
 
 	for i := 0; i < len(c.Cities); i++ {
 		for j := 0; j < len(c.Cities[i].Attendants); j++ {
-			err = pdf.SavePDF(c.Cities[i].Name, c.Cities[i].Date, c.Cities[i].Attendants[j])
+			err = pdf.SavePDF(&c.Cities[i], c.Cities[i].Attendants[j])
 			if err != nil {
 				panic(err)
 			}

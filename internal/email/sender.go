@@ -14,7 +14,7 @@ func Send(a *data.Attendant) error {
 
 	m := mail.NewV3Mail()
 
-	from := mail.NewEmail("DevParaná", "contato@devparana.org")
+	from := mail.NewEmail(os.Getenv("SENDGRID_SENDER_NAME"), os.Getenv("SENDGRID_SENDER_EMAIL"))
 	to := mail.NewEmail(a.Name, a.Email)
 
 	m.SetFrom(from)

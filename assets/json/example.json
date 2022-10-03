@@ -3,10 +3,11 @@
         {
             "name": "Campo Mourão",
             "date": "13/09/2022",
+            "template": "devparana_na_estrada_2022",
             "attendants": [
                 {
-                    "name": "Guilherme Siquineli",
-                    "email": "guiseek@gmail.com",
+                    "name": "Fernando Fabricio",
+                    "email": "ferfabricio@gmail.com",
                     "code": "982143f3-fd81-45a6-85ef-7f6281d13235"
                 }
             ]
